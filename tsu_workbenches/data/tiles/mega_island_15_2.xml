@@ -86,7 +86,7 @@
 			<transform 00="-0.490819" 02="0.871261" 20="-0.871261" 22="-0.490819" 30="171.803513" 31="7.557392" 32="-401.527344"/>
 		</mesh>
 		<mesh id="workbench_mesh_2" file_name="meshes/workbench.mesh">
-			<transform 00="-0.490819" 02="0.871261" 20="-0.871261" 22="-0.490819" 30="192.4" 31="7.557392" 32="-390.1"/>
+			<transform 00="-0.490819" 02="0.871261" 20="-0.871261" 22="-0.490819" 30="200.839844" 31="7.557392" 32="-385.557068"/>
 		</mesh>
 		<mesh id="door_shore_04" file_name="meshes/door_cottages.mesh">
 			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="-126.015228" 31="8.111832" 32="160.155777"/>
@@ -182,7 +182,7 @@
 			<transform 00="-0.486021" 02="0.873947" 20="-0.873947" 22="-0.486021" 30="171.803513" 31="7.557392" 32="-401.527344"/>
 		</physics_mesh>
 		<physics_mesh id="workbench_phys_2" file_name="meshes/workbench_phys.phys">
-			<transform 00="-0.486021" 02="0.873947" 20="-0.873947" 22="-0.486021" 30="192.4" 31="7.557392" 32="-390.1"/>
+			<transform 00="-0.486021" 02="0.873947" 20="-0.873947" 22="-0.486021" 30="200.839844" 31="7.557392" 32="-385.557068"/>
 		</physics_mesh>
 		<physics_mesh id="door_shore_04_phys" parent_id="door_shore_04" file_name="meshes/door_hospital_phys.phys">
 			<transform 00="-0" 02="-1" 20="1" 22="-0" 30="-126.015228" 31="8.111832" 32="160.155777"/>
@@ -435,7 +435,7 @@
 			<size x="22.5" y="20.5" z="57.25"/>
 		</edit_area>
 		<edit_area id="helipad_edit" grid_size="4">
-			<transform 00="0.4854" 02="-0.874292" 20="0.874292" 22="0.4854" 30="190.2" 31="11.59" 32="-384.07"/>
+			<transform 00="0.4854" 02="-0.874292" 20="0.874292" 22="0.4854" 30="229.028839" 31="11.59" 32="-362.936035"/>
 			<size x="36.5" y="10" z="35"/>
 		</edit_area>
 		<edit_area id="edit15" grid_size="5" is_static="true" default_vehicle="bed" is_invisible_vehicle="true">
@@ -501,7 +501,7 @@
 			<size x="1.993472" y="1.781679" z="1.579798"/>
 		</interactable>
 		<interactable id="helipad_workbench_interact" target_object_id="helipad_edit" label="Workbench" interact_type="2">
-			<transform 00="0.873456" 02="0.486902" 20="-0.486902" 22="0.873456" 30="192.4" 31="7.557392" 32="-390.1"/>
+			<transform 00="0.873456" 02="0.486902" 20="-0.486902" 22="0.873456" 30="200.839844" 31="7.557392" 32="-385.557068"/>
 			<size x="1.993472" y="1.781679" z="1.579798"/>
 		</interactable>
 		<interactable id="hall_lights_interact_01" target_object_id="hall_lights_logic" label="Lights">
