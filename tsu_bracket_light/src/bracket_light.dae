@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.2.12 LTS commit date:2025-07-14, commit time:13:17, hash:cf1451225401</authoring_tool>
+    </contributor>
+    <created>2025-07-17T18:27:58</created>
+    <modified>2025-07-17T18:27:58</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Material-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="paintable-1-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.4969335 0 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="paintable-2-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.6104922 0.4910214 0 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="MATERIALglass-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dark-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.09305834 0.09305903 0.093059 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="Material-material" name="Material">
+      <instance_effect url="#Material-effect"/>
+    </material>
+    <material id="paintable-1-material" name="paintable-1">
+      <instance_effect url="#paintable-1-effect"/>
+    </material>
+    <material id="paintable-2-material" name="paintable-2">
+      <instance_effect url="#paintable-2-effect"/>
+    </material>
+    <material id="MATERIALglass-material" name="MATERIALglass">
+      <instance_effect url="#MATERIALglass-effect"/>
+    </material>
+    <material id="dark-material" name="dark">
+      <instance_effect url="#dark-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube-mesh" name="Cube">
+      <mesh>
+        <source id="Cube-mesh-positions">
+          <float_array id="Cube-mesh-positions-array" count="60">-1 1 0.8 -1 1 -0.8 -1 -1 -0.8 0.144 0.8 0.6304004 -0.6440005 0.8 -0.6304003 0.144 -0.8 0.6304004 -0.6440005 -0.8 -0.6304003 -1 -1 0.8 0.25 1 0.8 -0.7500004 1 -0.8 0.25 -1 0.8 -0.7500004 -1 -0.8 0.008320331 0.8 0.7152002 -0.7796803 0.8 -0.5456005 0.008320331 -0.8 0.7152002 -0.7796803 -0.8 -0.5456005 -0.4655196 0.8 0.4853597 -0.7807198 0.8 -0.01896053 -0.4655196 -0.8 0.4853597 -0.7807198 -0.8 -0.01896053</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube-mesh-normals">
+          <float_array id="Cube-mesh-normals-array" count="108">0 0 1 0 -1 0 -1 0 0 0 0 -1 0 1 0 -0.529999 0 -0.8479983 0.8479982 -6.31808e-7 -0.5299991 0.8479983 0 -0.529999 0.847998 0 -0.5299995 0.8479982 0 -0.5299991 0 -1 0 0 -1 0 0.529999 0 0.8479983 0 1 0 0.8479983 0 -0.5299989 0.999998 0 0.001973807 0 1 0 0.4364271 0 -0.8997397 0 0 1 0 -1 0 -1 0 0 0 0 -1 0 1 0 -0.529999 0 -0.8479983 0.8479983 0 -0.529999 0.8479982 5.13344e-7 -0.5299991 0.8479979 0 -0.5299996 0.8479982 0 -0.5299991 0 -1 0 0 -1 0 0.529999 0 0.8479983 0 1 0 0.8479983 0 -0.5299989 0.999998 0 0.001973807 0 1 0 0.4364271 0 -0.8997397</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-normals-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube-mesh-map-0">
+          <float_array id="Cube-mesh-map-0-array" count="216">0.875 0.5 0.625 0.75 0.625 0.5 0.375 0.75 0.625 1 0.375 1 0.625 0 0.375 0.25 0.375 0 0.375 0.5 0.125 0.75 0.125 0.5 0.625 0.25 0.375 0.5 0.375 0.25 0.5985 0.71875 0.5985001 0.53125 0.5985001 0.53125 0.5985001 0.53125 0.375 0.5 0.625 0.5 0.5985 0.71875 0.375 0.75 0.4014999 0.71875 0.5985001 0.53125 0.625 0.75 0.5985 0.71875 0.4014999 0.71875 0.375 0.5 0.4014999 0.53125 0.4014999 0.53125 0.5985001 0.53125 0.4014999 0.53125 0.5985001 0.53125 0.4014999 0.53125 0.4014999 0.53125 0.4014999 0.53125 0.4014999 0.71875 0.4014999 0.71875 0.4014999 0.71875 0.5985 0.71875 0.5985 0.71875 0.5985001 0.53125 0.4014999 0.71875 0.4014999 0.53125 0.4014999 0.53125 0.4014999 0.71875 0.4014999 0.71875 0.4014999 0.71875 0.5985 0.71875 0.5985 0.71875 0.5985 0.71875 0.5985001 0.53125 0.5985001 0.53125 0.875 0.5 0.875 0.75 0.625 0.75 0.375 0.75 0.625 0.75 0.625 1 0.625 0 0.625 0.25 0.375 0.25 0.375 0.5 0.375 0.75 0.125 0.75 0.625 0.25 0.625 0.5 0.375 0.5 0.5985 0.71875 0.5985 0.71875 0.5985001 0.53125 0.5985001 0.53125 0.4014999 0.53125 0.375 0.5 0.5985 0.71875 0.625 0.75 0.375 0.75 0.5985001 0.53125 0.625 0.5 0.625 0.75 0.4014999 0.71875 0.375 0.75 0.375 0.5 0.4014999 0.53125 0.5985001 0.53125 0.5985001 0.53125 0.5985001 0.53125 0.5985001 0.53125 0.4014999 0.53125 0.4014999 0.53125 0.4014999 0.53125 0.4014999 0.71875 0.4014999 0.71875 0.4014999 0.71875 0.5985 0.71875 0.5985001 0.53125 0.5985 0.71875 0.4014999 0.71875 0.4014999 0.53125 0.4014999 0.53125 0.4014999 0.71875 0.4014999 0.71875 0.4014999 0.71875 0.5985 0.71875 0.5985 0.71875 0.5985 0.71875 0.5985001 0.53125</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-map-0-array" count="108" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube-mesh-vertices">
+          <input semantic="POSITION" source="#Cube-mesh-positions"/>
+        </vertices>
+        <triangles material="paintable-1-material" count="26">
+          <input semantic="VERTEX" source="#Cube-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 10 0 1 8 0 2 11 1 3 7 1 4 2 1 5 7 2 6 1 2 7 2 2 8 9 3 9 2 3 10 1 3 11 0 4 12 9 4 13 1 4 14 5 5 15 12 5 16 3 5 17 3 6 18 9 6 19 8 6 20 5 7 21 11 7 22 6 7 23 3 8 24 10 8 25 5 8 26 6 9 27 9 9 28 4 9 29 3 11 33 13 11 34 4 11 35 4 12 36 15 12 37 6 12 38 6 13 39 14 13 40 5 13 41 0 18 54 7 18 55 10 18 56 11 19 57 10 19 58 7 19 59 7 20 60 0 20 61 1 20 62 9 21 63 11 21 64 2 21 65 0 22 66 8 22 67 9 22 68 5 23 69 14 23 70 12 23 71 3 24 72 4 24 73 9 24 74 5 25 75 10 25 76 11 25 77 3 26 78 8 26 79 10 26 80 6 27 81 11 27 82 9 27 83 3 29 87 12 29 88 13 29 89 4 30 90 13 30 91 15 30 92 6 31 93 15 31 94 14 31 95</p>
+        </triangles>
+        <triangles material="paintable-2-material" count="10">
+          <input semantic="VERTEX" source="#Cube-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube-mesh-map-0" offset="2" set="0"/>
+          <p>13 10 30 16 10 31 17 10 32 16 14 42 19 14 43 17 14 44 13 15 45 19 15 46 15 15 47 15 16 48 18 16 49 14 16 50 14 17 51 16 17 52 12 17 53 13 28 84 12 28 85 16 28 86 16 32 96 18 32 97 19 32 98 13 33 99 17 33 100 19 33 101 15 34 102 19 34 103 18 34 104 14 35 105 18 35 106 16 35 107</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Cube" name="Cube" type="NODE">
+        <matrix sid="transform">0.125 0 0 0 0 0.125 0 0 0 0 0.125 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube-mesh" name="Cube">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material-material" target="#Material-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="paintable-1-material" target="#paintable-1-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="paintable-2-material" target="#paintable-2-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="MATERIALglass-material" target="#MATERIALglass-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="dark-material" target="#dark-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
