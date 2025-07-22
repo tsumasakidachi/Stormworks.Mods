@@ -14,6 +14,10 @@ mesh_compiler window_slanted_4x1x2.dae -o ./
 component_mod_compiler window_slanted_4x1x2.xml window_slanted_4x1x2.mesh
 move window_slanted_4x1x2.bin ..\data\components
 
+mesh_compiler window_slanted_5x1x2.dae -o ./
+component_mod_compiler window_slanted_5x1x2.xml window_slanted_5x1x2.mesh
+move window_slanted_5x1x2.bin ..\data\components
+
 mesh_compiler window_slanted_7x1x2.dae -o ./
 component_mod_compiler window_slanted_7x1x2.xml window_slanted_7x1x2.mesh
 move window_slanted_7x1x2.bin ..\data\components
