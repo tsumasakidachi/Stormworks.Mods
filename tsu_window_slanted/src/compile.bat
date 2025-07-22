@@ -34,9 +34,9 @@ mesh_compiler window_slanted_3x1x3.dae -o ./
 component_mod_compiler window_slanted_3x1x3.xml window_slanted_3x1x3.mesh
 move window_slanted_3x1x3.bin ..\data\components
 
-@REM mesh_compiler window_slanted_4x1x3.dae -o ./
-@REM component_mod_compiler window_slanted_4x1x3.xml window_slanted_4x1x3.mesh
-@REM move window_slanted_4x1x3.bin ..\data\components
+mesh_compiler window_slanted_4x1x3.dae -o ./
+component_mod_compiler window_slanted_4x1x3.xml window_slanted_4x1x3.mesh
+move window_slanted_4x1x3.bin ..\data\components
 
 @REM mesh_compiler window_slanted_9x1x3.dae -o ./
 @REM component_mod_compiler window_slanted_9x1x3.xml window_slanted_9x1x3.mesh
