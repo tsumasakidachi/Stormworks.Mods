@@ -1,3 +1,11 @@
+mesh_compiler window_panoramic_5x1x2.dae -o ./
+component_mod_compiler window_panoramic_5x1x2.xml window_panoramic_5x1x2.mesh
+move window_panoramic_5x1x2.bin ..\data\components
+
+mesh_compiler window_panoramic_5x1x4.dae -o ./
+component_mod_compiler window_panoramic_5x1x4.xml window_panoramic_5x1x4.mesh
+move window_panoramic_5x1x4.bin ..\data\components
+
 mesh_compiler window_panoramic_7x1x2.dae -o ./
 component_mod_compiler window_panoramic_7x1x2.xml window_panoramic_7x1x2.mesh
 move window_panoramic_7x1x2.bin ..\data\components
