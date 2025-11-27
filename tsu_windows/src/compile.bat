@@ -40,6 +40,12 @@ mesh_compiler window_9x3.dae -o ./
 component_mod_compiler window_9x3.xml window_9x3.mesh
 move window_9x3.bin ..\data\components
 
+@REM angle slanted
+
+mesh_compiler window_angle_slanted_2x2x5.dae -o ./
+component_mod_compiler window_angle_slanted_2x2x5.xml window_angle_slanted_2x2x5.mesh
+move window_angle_slanted_2x2x5.bin ..\data\components
+
 @REM slanted
 
 mesh_compiler window_slanted_1x1x2.dae -o ./
@@ -50,6 +56,10 @@ mesh_compiler window_slanted_1x1x3.dae -o ./
 component_mod_compiler window_slanted_1x1x3.xml window_slanted_1x1x3.mesh
 move window_slanted_1x1x3.bin ..\data\components
 
+mesh_compiler window_slanted_1x1x5.dae -o ./
+component_mod_compiler window_slanted_1x1x5.xml window_slanted_1x1x5.mesh
+move window_slanted_1x1x5.bin ..\data\components
+
 mesh_compiler window_slanted_2x1x2.dae -o ./
 component_mod_compiler window_slanted_2x1x2.xml window_slanted_2x1x2.mesh
 move window_slanted_2x1x2.bin ..\data\components
@@ -57,6 +67,10 @@ move window_slanted_2x1x2.bin ..\data\components
 mesh_compiler window_slanted_2x1x3.dae -o ./
 component_mod_compiler window_slanted_2x1x3.xml window_slanted_2x1x3.mesh
 move window_slanted_2x1x3.bin ..\data\components
+
+mesh_compiler window_slanted_2x1x5.dae -o ./
+component_mod_compiler window_slanted_2x1x5.xml window_slanted_2x1x5.mesh
+move window_slanted_2x1x5.bin ..\data\components
 
 mesh_compiler window_slanted_3x1x2.dae -o ./
 component_mod_compiler window_slanted_3x1x2.xml window_slanted_3x1x2.mesh
@@ -66,6 +80,10 @@ mesh_compiler window_slanted_3x1x3.dae -o ./
 component_mod_compiler window_slanted_3x1x3.xml window_slanted_3x1x3.mesh
 move window_slanted_3x1x3.bin ..\data\components
 
+mesh_compiler window_slanted_3x1x5.dae -o ./
+component_mod_compiler window_slanted_3x1x5.xml window_slanted_3x1x5.mesh
+move window_slanted_3x1x5.bin ..\data\components
+
 mesh_compiler window_slanted_4x1x2.dae -o ./
 component_mod_compiler window_slanted_4x1x2.xml window_slanted_4x1x2.mesh
 move window_slanted_4x1x2.bin ..\data\components
@@ -74,6 +92,10 @@ mesh_compiler window_slanted_4x1x3.dae -o ./
 component_mod_compiler window_slanted_4x1x3.xml window_slanted_4x1x3.mesh
 move window_slanted_4x1x3.bin ..\data\components
 
+mesh_compiler window_slanted_4x1x5.dae -o ./
+component_mod_compiler window_slanted_4x1x5.xml window_slanted_4x1x5.mesh
+move window_slanted_4x1x5.bin ..\data\components
+
 mesh_compiler window_slanted_5x1x2.dae -o ./
 component_mod_compiler window_slanted_5x1x2.xml window_slanted_5x1x2.mesh
 move window_slanted_5x1x2.bin ..\data\components
@@ -81,6 +103,10 @@ move window_slanted_5x1x2.bin ..\data\components
 mesh_compiler window_slanted_5x1x3.dae -o ./
 component_mod_compiler window_slanted_5x1x3.xml window_slanted_5x1x3.mesh
 move window_slanted_5x1x3.bin ..\data\components
+
+mesh_compiler window_slanted_5x1x5.dae -o ./
+component_mod_compiler window_slanted_5x1x5.xml window_slanted_5x1x5.mesh
+move window_slanted_5x1x5.bin ..\data\components
 
 mesh_compiler window_slanted_5x1x6.dae -o ./
 component_mod_compiler window_slanted_5x1x6.xml window_slanted_5x1x6.mesh
@@ -111,6 +137,10 @@ move window_slanted_interface_3x1x2.bin ..\data\components
 mesh_compiler window_slanted_interface_3x1x3.dae -o ./
 component_mod_compiler window_slanted_interface_3x1x3.xml window_slanted_interface_3x1x3.mesh
 move window_slanted_interface_3x1x3.bin ..\data\components
+
+mesh_compiler window_slanted_interface_3x1x5.dae -o ./
+component_mod_compiler window_slanted_interface_3x1x5.xml window_slanted_interface_3x1x5.mesh
+move window_slanted_interface_3x1x5.bin ..\data\components
 
 mesh_compiler window_slanted_interface_3x1x6.dae -o ./
 component_mod_compiler window_slanted_interface_3x1x6.xml window_slanted_interface_3x1x6.mesh

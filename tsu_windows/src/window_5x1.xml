@@ -39,19 +39,19 @@
 		</surface>
 	</surfaces>
 	<buoyancy_surfaces>
-		<surface orientation="0" rotation="0" shape="1" trans_type="0">
+		<surface orientation="1" rotation="0" shape="1" trans_type="0">
 			<position x="0" y="0" z="0"/>
 		</surface>
-		<surface orientation="0" rotation="0" shape="1" trans_type="0">
+		<surface orientation="1" rotation="0" shape="1" trans_type="0">
 			<position x="0" y="0" z="1"/>
 		</surface>
-		<surface orientation="0" rotation="0" shape="1" trans_type="0">
+		<surface orientation="1" rotation="0" shape="1" trans_type="0">
 			<position x="0" y="0" z="2"/>
 		</surface>
-		<surface orientation="0" rotation="0" shape="1" trans_type="0">
+		<surface orientation="1" rotation="0" shape="1" trans_type="0">
 			<position x="0" y="0" z="3"/>
 		</surface>
-		<surface orientation="0" rotation="0" shape="1" trans_type="0">
+		<surface orientation="1" rotation="0" shape="1" trans_type="0">
 			<position x="0" y="0" z="4"/>
 		</surface>
 	</buoyancy_surfaces>
