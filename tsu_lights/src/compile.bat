@@ -22,3 +22,8 @@ mesh_compiler beacon_light_mount_glass.dae -o ./
 component_mod_compiler beacon_light_mount.xml beacon_light_mount.mesh beacon_light_mount_glass.mesh
 move beacon_light_mount.bin ..\data\components
 
+mesh_compiler nav_light.dae -o ./
+mesh_compiler nav_light_glass.dae -o ./
+component_mod_compiler nav_light.xml nav_light.mesh nav_light_glass.mesh
+move nav_light.bin ..\data\components
+
