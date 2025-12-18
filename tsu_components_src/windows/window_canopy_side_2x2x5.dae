@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.2.14 LTS commit date:2025-09-08, commit time:12:49, hash:ec9012778df7</authoring_tool>
+    </contributor>
+    <created>2025-10-04T15:07:08</created>
+    <modified>2025-10-04T15:07:08</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="paintable-0-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.4969335 0 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="paintable-1-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.6104922 0.4910214 0 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="paintable-2-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.215859 0.4910214 0 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="MATERIALglass-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="paintable-0-material" name="paintable-0">
+      <instance_effect url="#paintable-0-effect"/>
+    </material>
+    <material id="paintable-1-material" name="paintable-1">
+      <instance_effect url="#paintable-1-effect"/>
+    </material>
+    <material id="paintable-2-material" name="paintable-2">
+      <instance_effect url="#paintable-2-effect"/>
+    </material>
+    <material id="MATERIALglass-material" name="MATERIALglass">
+      <instance_effect url="#MATERIALglass-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="立方体-mesh" name="立方体">
+      <mesh>
+        <source id="立方体-mesh-positions">
+          <float_array id="立方体-mesh-positions-array" count="102">0.375 -0.125 1.125 0.375 0.375 -0.125 0.1498528 -0.125 1.065 -0.06499999 -0.125 0.8501472 0.375 0.375 0.125 -0.06499999 -0.125 -0.105 0.375 0.367 0.1409999 0.125 0.367 0.141 0.375 0.3133344 0.1141671 0.1598939 0.3133344 0.1141672 -0.05927324 -0.125 -0.105 0.1598939 0.3133344 -0.125 -0.05927324 -0.125 -0.125 0.375 0.3133344 -0.125 0.375 0.3133344 0.09416717 0.375 -0.125 1.085 -0.125 -0.125 0.875 0.125 -0.125 1.125 -0.06499999 -0.125 -0.125 0.375 -0.125 1.065 -0.06499999 -0.105 -0.09499996 0.375 -0.105 1.085 0.375 -0.105 1.065 -0.06499999 -0.105 0.8501472 0.1498528 -0.105 1.065 -0.115 -0.105 0.845 0.375 -0.115 1.065 -0.125 -0.125 -0.105 0.125 -0.105 1.085 0.12 0.365 0.14 -0.125 0.375 -0.125 -0.115 -0.105 -0.09499996 0.125 0.375 0.125 -0.125 -0.125 -0.125</float_array>
+          <technique_common>
+            <accessor source="#立方体-mesh-positions-array" count="34" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="立方体-mesh-normals">
+          <float_array id="立方体-mesh-normals-array" count="207">0 -1 0 -0.4082493 0.8164966 0.4082475 0 0.8944275 0.4472129 0 1 0 0 -1 0 1 0 0 0.8944272 -0.4472137 0 1 0 0 0 0 -1 0 0 -1 0 -1 0 0 1 0 0.7071069 0 -0.7071067 1 0 0 0 -1 0 0 1 0 -0.4082485 0.8164964 0.4082485 1 0 0 0 1 0 0 -1 0 0 0 -1 0 0.8944272 0.4472136 0 -1 0 0 0.8944271 0.4472138 -0.8944272 0.4472136 0 -0.8944272 0.4472136 0 -0.4082493 0.8164963 0.4082478 1 0 0 -0.7071068 0 0.7071068 -0.8944272 0.4472136 0 -0.8944272 0.4472136 0 0 -0.4472136 0.8944272 0 -0.4472136 0.8944272 0 -0.4472137 0.8944272 0 -0.4472136 0.8944272 0 -1 0 0 0.8944271 0.4472135 0 1 0 0 -1 0 0 -1 0 1 0 0 0.8944272 -0.4472136 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 1 0 0.7071069 0 -0.7071067 0 -1 0 0 1 0 -0.4082485 0.8164964 0.4082485 1 0 0 0 1 0 0 -1 0 0 0 -1 0 0 -1 0 0.8944272 0.4472136 0 -1 0 0 -1 0 0 0.8944271 0.4472138 -0.8944272 0.4472136 0 -0.4082483 0.8164966 0.4082483 1 0 0 1 0 0 -0.8944272 0.4472136 0 -9.667e-7 -0.4472132 0.8944274 0 -0.4472137 0.8944272 0 -0.4472137 0.8944272</float_array>
+          <technique_common>
+            <accessor source="#立方体-mesh-normals-array" count="69" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="立方体-mesh-map-0">
+          <float_array id="立方体-mesh-map-0-array" count="414">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#立方体-mesh-map-0-array" count="207" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="立方体-mesh-vertices">
+          <input semantic="POSITION" source="#立方体-mesh-positions"/>
+        </vertices>
+        <triangles material="paintable-0-material" count="24">
+          <input semantic="VERTEX" source="#立方体-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#立方体-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#立方体-mesh-map-0" offset="2" set="0"/>
+          <p>32 1 3 29 1 4 7 1 5 7 2 6 4 2 7 32 2 8 32 3 9 1 3 10 30 3 11 1 8 24 11 8 25 30 8 26 18 9 27 30 9 28 12 9 29 15 13 39 21 13 40 0 13 41 16 16 48 28 16 49 25 16 50 0 23 69 28 23 70 17 23 71 27 25 75 25 25 76 31 25 77 26 27 81 21 27 82 15 27 83 33 28 84 32 28 85 30 28 86 31 29 87 33 29 88 27 29 89 31 30 90 32 30 91 33 30 92 7 36 108 6 36 109 4 36 110 32 37 111 4 37 112 1 37 113 1 43 129 13 43 130 11 43 131 18 44 132 33 44 133 30 44 134 30 45 135 11 45 136 12 45 137 16 51 153 17 51 154 28 51 155 0 60 180 21 60 181 28 60 182 27 61 183 16 61 184 25 61 185 15 63 189 19 63 190 26 63 191 26 64 192 22 64 193 21 64 194 31 65 195 29 65 196 32 65 197</p>
+        </triangles>
+        <triangles material="paintable-1-material" count="40">
+          <input semantic="VERTEX" source="#立方体-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#立方体-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#立方体-mesh-map-0" offset="2" set="0"/>
+          <p>33 0 0 5 0 1 27 0 2 11 4 12 13 4 13 14 4 14 14 5 15 1 5 16 4 5 17 11 6 18 10 6 19 12 6 20 8 7 21 4 7 22 6 7 23 18 10 30 10 10 31 5 10 32 20 11 33 25 11 34 23 11 35 2 12 36 23 12 37 24 12 38 17 14 42 3 14 43 2 14 44 28 15 45 23 15 46 25 15 47 20 17 51 3 17 52 5 17 53 21 18 54 24 18 55 28 18 56 3 19 57 27 19 58 5 19 59 26 20 60 19 20 61 2 20 62 2 22 66 19 22 67 15 22 68 10 31 93 20 31 94 5 31 95 9 32 96 31 32 97 20 32 98 9 33 99 7 33 100 29 33 101 6 34 102 9 34 103 8 34 104 33 35 105 18 35 106 5 35 107 14 38 114 8 38 115 9 38 116 9 39 117 11 39 118 14 39 119 14 40 120 13 40 121 1 40 122 11 41 123 9 41 124 10 41 125 8 42 126 14 42 127 4 42 128 18 46 138 12 46 139 10 46 140 20 47 141 31 47 142 25 47 143 2 48 144 3 48 145 23 48 146 17 49 147 16 49 148 3 49 149 28 50 150 24 50 151 23 50 152 20 52 156 23 52 157 3 52 158 21 53 159 22 53 160 24 53 161 3 54 162 16 54 163 27 54 164 2 55 165 24 55 166 26 55 167 24 56 168 22 56 169 26 56 170 15 58 174 0 58 175 2 58 176 0 59 177 17 59 178 2 59 179 10 66 198 9 66 199 20 66 200 9 67 201 29 67 202 31 67 203 6 68 204 7 68 205 9 68 206</p>
+        </triangles>
+        <triangles material="MATERIALglass-material" count="5">
+          <input semantic="VERTEX" source="#立方体-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#立方体-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#立方体-mesh-map-0" offset="2" set="0"/>
+          <p>21 21 63 7 21 64 28 21 65 25 24 72 29 24 73 31 24 74 25 26 78 7 26 79 29 26 80 21 57 171 6 57 172 7 57 173 25 62 186 28 62 187 7 62 188</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="立方体" name="立方体" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#立方体-mesh" name="立方体">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="paintable-0-material" target="#paintable-0-material">
+                <bind_vertex_input semantic="UVマップ" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="paintable-1-material" target="#paintable-1-material">
+                <bind_vertex_input semantic="UVマップ" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="paintable-2-material" target="#paintable-2-material">
+                <bind_vertex_input semantic="UVマップ" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="MATERIALglass-material" target="#MATERIALglass-material">
+                <bind_vertex_input semantic="UVマップ" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
