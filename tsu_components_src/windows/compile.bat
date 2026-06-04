@@ -40,6 +40,10 @@ mesh_compiler window_7x3.dae -o ./
 component_mod_compiler window_7x3.xml window_7x3.mesh
 move window_7x3.bin ../../tsu_components/data/components
 
+mesh_compiler window_7x4.dae -o ./
+component_mod_compiler window_7x4.xml window_7x4.mesh
+move window_7x4.bin ../../tsu_components/data/components
+
 mesh_compiler window_9x2.dae -o ./
 component_mod_compiler window_9x2.xml window_9x2.mesh
 move window_9x2.bin ../../tsu_components/data/components
@@ -178,6 +182,10 @@ mesh_compiler window_panoramic_5x1x2.dae -o ./
 component_mod_compiler window_panoramic_5x1x2.xml window_panoramic_5x1x2.mesh
 move window_panoramic_5x1x2.bin ../../tsu_components/data/components
 
+mesh_compiler window_panoramic_5x1x3.dae -o ./
+component_mod_compiler window_panoramic_5x1x3.xml window_panoramic_5x1x3.mesh
+move window_panoramic_5x1x3.bin ../../tsu_components/data/components
+
 mesh_compiler window_panoramic_5x1x4.dae -o ./
 component_mod_compiler window_panoramic_5x1x4.xml window_panoramic_5x1x4.mesh
 move window_panoramic_5x1x4.bin ../../tsu_components/data/components
@@ -186,9 +194,29 @@ mesh_compiler window_panoramic_7x1x2.dae -o ./
 component_mod_compiler window_panoramic_7x1x2.xml window_panoramic_7x1x2.mesh
 move window_panoramic_7x1x2.bin ../../tsu_components/data/components
 
+mesh_compiler window_panoramic_7x1x3.dae -o ./
+component_mod_compiler window_panoramic_7x1x3.xml window_panoramic_7x1x3.mesh
+move window_panoramic_7x1x3.bin ../../tsu_components/data/components
+
 mesh_compiler window_panoramic_7x1x4.dae -o ./
 component_mod_compiler window_panoramic_7x1x4.xml window_panoramic_7x1x4.mesh
 move window_panoramic_7x1x4.bin ../../tsu_components/data/components
+
+mesh_compiler window_panoramic_9x1x2.dae -o ./
+component_mod_compiler window_panoramic_9x1x2.xml window_panoramic_9x1x2.mesh
+move window_panoramic_9x1x2.bin ../../tsu_components/data/components
+
+mesh_compiler window_panoramic_9x1x3.dae -o ./
+component_mod_compiler window_panoramic_9x1x3.xml window_panoramic_9x1x3.mesh
+move window_panoramic_9x1x3.bin ../../tsu_components/data/components
+
+mesh_compiler window_panoramic_9x1x3.dae -o ./
+component_mod_compiler window_panoramic_9x1x3.xml window_panoramic_9x1x3.mesh
+move window_panoramic_9x1x3.bin ../../tsu_components/data/components
+
+mesh_compiler window_panoramic_9x1x4.dae -o ./
+component_mod_compiler window_panoramic_9x1x4.xml window_panoramic_9x1x4.mesh
+move window_panoramic_9x1x4.bin ../../tsu_components/data/components
 
 mesh_compiler window_panoramic_11x1x3.dae -o ./
 component_mod_compiler window_panoramic_11x1x3.xml window_panoramic_11x1x3.mesh
