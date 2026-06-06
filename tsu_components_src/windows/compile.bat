@@ -12,6 +12,10 @@ mesh_compiler window_4x3.dae -o ./
 component_mod_compiler window_4x3.xml window_4x3.mesh
 move window_4x3.bin ../../tsu_components/data/components
 
+mesh_compiler window_4x4.dae -o ./
+component_mod_compiler window_4x4.xml window_4x4.mesh
+move window_4x4.bin ../../tsu_components/data/components
+
 mesh_compiler window_5x1.dae -o ./
 component_mod_compiler window_5x1.xml window_5x1.mesh
 move window_5x1.bin ../../tsu_components/data/components
