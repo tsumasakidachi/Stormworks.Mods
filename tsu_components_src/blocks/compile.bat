@@ -1,3 +1,9 @@
+component_mod_compiler block_2x2.xml
+move block_2x2.bin ../../tsu_components/data/components
+
+component_mod_compiler block_4x4.xml
+move block_4x4.bin ../../tsu_components/data/components
+
 mesh_compiler block_chamfered.dae -o ./
 component_mod_compiler block_chamfered.xml block_chamfered.mesh
 move block_chamfered.bin ../../tsu_components/data/components
