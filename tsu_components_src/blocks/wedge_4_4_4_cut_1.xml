@@ -4,7 +4,7 @@
 		<surface orientation="1" rotation="1" shape="0" trans_type="0">
 			<position x="0" y="0" z="0"/>
 		</surface>
-		<surface orientation="3" rotation="0" shape="1" trans_type="0">
+		<surface orientation="3" rotation="0" shape="0" trans_type="0">
 			<position x="0" y="0" z="0"/>
 		</surface>
 		<surface orientation="0" rotation="3" shape="20" trans_type="0">
