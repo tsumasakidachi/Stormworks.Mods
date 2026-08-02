@@ -27,12 +27,19 @@ mesh_compiler nav_light_glass.dae -o ./
 component_mod_compiler nav_light.xml nav_light.mesh nav_light_glass.mesh
 move nav_light.bin ../../tsu_components/data/components
 
-mesh_compiler light_bar.dae -o ./
-mesh_compiler light_bar_glass.dae -o ./
-component_mod_compiler light_bar.xml light_bar.mesh light_bar_glass.mesh
-move light_bar.bin ../../tsu_components/data/components
-component_mod_compiler light_bar_rgb.xml light_bar.mesh light_bar_glass.mesh
-move light_bar_rgb.bin ../../tsu_components/data/components
+mesh_compiler bar_light.dae -o ./
+mesh_compiler bar_light_glass.dae -o ./
+component_mod_compiler bar_light.xml bar_light.mesh bar_light_glass.mesh
+move bar_light.bin ../../tsu_components/data/components
+component_mod_compiler bar_light_rgb.xml bar_light.mesh bar_light_glass.mesh
+move bar_light_rgb.bin ../../tsu_components/data/components
+
+mesh_compiler bar_light_small.dae -o ./
+mesh_compiler bar_light_small_glass.dae -o ./
+component_mod_compiler bar_light_small.xml bar_light_small.mesh bar_light_small_glass.mesh
+move bar_light_small.bin ../../tsu_components/data/components
+component_mod_compiler bar_light_small_rgb.xml bar_light_small.mesh bar_light_small_glass.mesh
+move bar_light_small_rgb.bin ../../tsu_components/data/components
 
 mesh_compiler light_wedge.dae -o ./
 mesh_compiler light_wedge_glass.dae -o ./
