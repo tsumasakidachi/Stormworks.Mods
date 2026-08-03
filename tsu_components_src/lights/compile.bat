@@ -55,3 +55,8 @@ mesh_compiler searchlight_block_glass.dae -o ./
 component_mod_compiler searchlight_block.xml searchlight_block.mesh searchlight_block_glass.mesh
 move searchlight_block.bin ../../tsu_components/data/components
 
+mesh_compiler bar_light_large.dae -o ./
+mesh_compiler bar_light_large_glass.dae -o ./
+component_mod_compiler bar_light_large.xml bar_light_large.mesh bar_light_large_glass.mesh
+move bar_light_large.bin ../../tsu_components/data/components
+
