@@ -1,44 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definition name="Small Spotlight (Block)" category="4" type="10" mass="1" value="20" flags="2281963520" mesh_data_name="searchlight_block.mesh" mesh_0_name="searchlight_block_glass.mesh" mesh_editor_only_name="meshes/arrow_spotlight_gimbal.mesh" constraint_axis="1" cable_length="16" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" force_emitter_max_vector="1" engine_max_force="1000" wheel_radius="0.25" light_intensity="3.5" light_range="60" light_ies_map="graphics/ies/ies_default.txtr" light_fov="0.698132" light_type="1" rudder_surface_area="0">
+<definition name="Bar Light Large Mount (Wide Spotlight)" category="4" type="10" mass="1" value="20" flags="2281963520" mesh_data_name="bar_light_large_mount.mesh" mesh_0_name="bar_light_large_glass.mesh" mesh_editor_only_name="meshes/arrow_spotlight_gimbal.mesh" constraint_axis="1" cable_length="16" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" force_emitter_max_vector="1" engine_max_force="1000" wheel_radius="0.25" light_intensity="1" light_range="120" light_ies_map="graphics/ies/ies_default.txtr" light_fov="1.2" light_type="1" rudder_surface_area="0">
 	<tooltip_properties description="It has a range of 60m. Can be pivoted up to 0.125 turns using composite input." short_description="A small spotlight that can be controlled using an on/off signal."/>
 	<sfx_datas/>
 	<surfaces>
-		<surface orientation="5" shape="0">
-			<position/>
+		<surface orientation="3" shape="0">
+			<position x="-1" y="0" z="0"/>
 		</surface>
-		<surface shape="0">
-			<position/>
+		<surface orientation="3" shape="0">
+			<position x="0" y="0" z="0"/>
 		</surface>
-		<surface orientation="1" shape="0">
-			<position/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position/>
+		<surface orientation="3" shape="0">
+			<position x="0" y="0" z="0"/>
 		</surface>
 		<surface orientation="4" shape="0">
-			<position/>
+			<position x="-1" y="0" z="0"/>
+		</surface>
+		<surface orientation="4" shape="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="4" shape="0">
+			<position x="1" y="0" z="0"/>
 		</surface>
 	</surfaces>
-	<buoyancy_surfaces>
-		<surface orientation="4" shape="1">
-			<position/>
-		</surface>
-		<surface orientation="1" shape="1">
-			<position/>
-		</surface>
-		<surface shape="1">
-			<position/>
-		</surface>
-		<surface orientation="5" shape="1">
-			<position/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position/>
-		</surface>
-		<surface orientation="2" shape="1">
-			<position/>
-		</surface>
-	</buoyancy_surfaces>
+	<buoyancy_surfaces/>
 	<logic_nodes>
 		<logic_node label="Light Switch" mode="1" description="Controls whether or not the light is switched on.">
 			<position/>
@@ -53,12 +37,20 @@
 	<couplings/>
 	<voxels>
 		<voxel flags="1">
-			<position/>
+			<position x="-1" y="0" z="0"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="0" y="0" z="0"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="1" y="0" z="0"/>
 			<physics_shape_rotation/>
 		</voxel>
 	</voxels>
-	<voxel_min/>
-	<voxel_max />
+	<voxel_min x="-1" y="0" z="0"/>
+	<voxel_max x="1" y="0" z="0"/>
 	<voxel_physics_min/>
 	<voxel_physics_max/>
 	<bb_physics_min/>

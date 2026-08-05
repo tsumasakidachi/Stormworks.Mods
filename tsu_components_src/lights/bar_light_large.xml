@@ -10,7 +10,7 @@
 			<position x="0" y="0" z="0"/>
 		</surface>
 		<surface orientation="3" shape="0">
-			<position x="0" y="0" z="0"/>
+			<position x="1" y="0" z="0"/>
 		</surface>
 	</surfaces>
 	<buoyancy_surfaces/>
@@ -56,7 +56,7 @@
 	<seat_camera/>
 	<seat_render/>
 	<force_dir/>
-	<light_position/>
+	<light_position x="0" y="1" z="0"/>
 	<light_color x="1" y="1" z="1"/>
 	<light_forward/>
 	<door_size x="1" y="1" z="1"/>
