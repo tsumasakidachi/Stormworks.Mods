@@ -6,6 +6,10 @@ mesh_compiler seat_car_driver_tiny.dae -o ./
 component_mod_compiler seat_car_driver_tiny.xml seat_car_driver_tiny.mesh
 move seat_car_driver_tiny.bin ../../tsu_components/data/components
 
+mesh_compiler seat_car_driver.dae -o ./
+component_mod_compiler seat_car_driver.xml seat_car_driver.mesh
+move seat_car_driver.bin ../../tsu_components/data/components
+
 mesh_compiler seat_train_driver_tiny.dae -o ./
 component_mod_compiler seat_train_driver_tiny.xml seat_train_driver_tiny.mesh
 move seat_train_driver_tiny.bin ../../tsu_components/data/components
