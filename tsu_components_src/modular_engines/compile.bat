@@ -22,9 +22,9 @@ mesh_compiler modular_engine_cylinder_1x3x1.dae -o ./
 component_mod_compiler modular_engine_cylinder_1x3x1.xml modular_engine_cylinder_1x3x1.mesh
 move modular_engine_cylinder_1x3x1.bin ../../tsu_components/data/components
 
-mesh_compiler modular_engine_cylinder_3x3x3.dae -o ./
-component_mod_compiler modular_engine_cylinder_3x3x3.xml modular_engine_cylinder_3x3x3.mesh
-move modular_engine_cylinder_3x3x3.bin ../../tsu_components/data/components
+mesh_compiler modular_engine_cylinder_3x5x2.dae -o ./
+component_mod_compiler modular_engine_cylinder_3x5x2.xml modular_engine_cylinder_3x5x2.mesh
+move modular_engine_cylinder_3x5x2.bin ../../tsu_components/data/components
 
 mesh_compiler modular_engine_exhaust_manifold_housing_corner.dae -o ./
 component_mod_compiler modular_engine_exhaust_manifold_housing_corner.xml modular_engine_exhaust_manifold_housing_corner.mesh
@@ -53,6 +53,10 @@ move modular_engine_manifold_housing_t.bin ../../tsu_components/data/components
 mesh_compiler modular_engine_clutch_housing_1x1.dae -o ./
 component_mod_compiler modular_engine_clutch_housing_1x1.xml modular_engine_clutch_housing_1x1.mesh
 move modular_engine_clutch_housing_1x1.bin ../../tsu_components/data/components
+
+mesh_compiler modular_engine_clutch_housing_3x3.dae -o ./
+component_mod_compiler modular_engine_clutch_housing_3x3.xml modular_engine_clutch_housing_3x3.mesh
+move modular_engine_clutch_housing_3x3.bin ../../tsu_components/data/components
 
 mesh_compiler modular_engine_power_manifold_housing_1x1.dae -o ./
 component_mod_compiler modular_engine_power_manifold_housing_1x1.xml modular_engine_power_manifold_housing_1x1.mesh
