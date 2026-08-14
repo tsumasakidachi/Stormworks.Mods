@@ -14,9 +14,9 @@ mesh_compiler modular_engine_crankshaft_3x3x3.dae -o ./
 component_mod_compiler modular_engine_crankshaft_3x3x3.xml modular_engine_crankshaft_3x3x3.mesh
 move modular_engine_crankshaft_3x3x3.bin ../../tsu_components/data/components
 
-mesh_compiler modular_engine_cylinder_1x1x2.dae -o ./
-component_mod_compiler modular_engine_cylinder_1x1x2.xml modular_engine_cylinder_1x1x2.mesh
-move modular_engine_cylinder_1x1x2.bin ../../tsu_components/data/components
+@REM mesh_compiler modular_engine_cylinder_1x1x2.dae -o ./
+@REM component_mod_compiler modular_engine_cylinder_1x1x2.xml modular_engine_cylinder_1x1x2.mesh
+@REM move modular_engine_cylinder_1x1x2.bin ../../tsu_components/data/components
 
 mesh_compiler modular_engine_cylinder_1x3x1.dae -o ./
 component_mod_compiler modular_engine_cylinder_1x3x1.xml modular_engine_cylinder_1x3x1.mesh

@@ -383,16 +383,13 @@
 		</logic_node>
 	</logic_nodes>
 	<couplings>
-		<coupling orientation="1" alignment="0" coupling_type="manifold" coupling_name="manifold_d" coupling_gender="0" alignment_required="false">
-			<position x="-2" y="1" z="0"/>
+		<coupling orientation="2" alignment="0" coupling_type="manifold" coupling_name="manifold_c" coupling_gender="0" alignment_required="false">
+			<position x="0" y="1" z="0"/>
 		</coupling>
-		<coupling orientation="1" alignment="0" coupling_type="manifold" coupling_name="manifold_c" coupling_gender="0" alignment_required="false">
+		<coupling orientation="5" alignment="0" coupling_type="manifold" coupling_name="manifold_b" coupling_gender="0" alignment_required="false">
 			<position x="0" y="1" z="-1"/>
 		</coupling>
-		<coupling orientation="0" alignment="0" coupling_type="manifold" coupling_name="manifold_b" coupling_gender="0" alignment_required="false">
-			<position x="2" y="1" z="0"/>
-		</coupling>
-		<coupling orientation="0" alignment="0" coupling_type="manifold" coupling_name="manifold_a" coupling_gender="0" alignment_required="false">
+		<coupling orientation="4" alignment="0" coupling_type="manifold" coupling_name="manifold_a" coupling_gender="0" alignment_required="false">
 			<position x="0" y="1" z="1"/>
 		</coupling>
 		<coupling orientation="3" alignment="0" coupling_type="cylinder_3" coupling_name="cylinder" coupling_gender="1" alignment_required="false">

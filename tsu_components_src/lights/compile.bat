@@ -41,17 +41,22 @@ move bar_light_small.bin ../../tsu_components/data/components
 component_mod_compiler bar_light_small_rgb.xml bar_light_small.mesh bar_light_small_glass.mesh
 move bar_light_small_rgb.bin ../../tsu_components/data/components
 
+mesh_compiler light_block.dae -o ./
+mesh_compiler light_block_glass.dae -o ./
+component_mod_compiler light_block.xml light_block.mesh light_block_glass.mesh
+move light_block.bin ../../tsu_components/data/components
+component_mod_compiler light_block_rgb.xml light_block.mesh light_block_glass.mesh
+move light_block_rgb.bin ../../tsu_components/data/components
+
 mesh_compiler light_wedge.dae -o ./
 mesh_compiler light_wedge_glass.dae -o ./
-@REM component_mod_compiler light_wedge.xml light_wedge.mesh light_wedge_glass.mesh
-@REM move light_wedge.bin ../../tsu_components/data/components
+component_mod_compiler light_wedge.xml light_wedge.mesh light_wedge_glass.mesh
+move light_wedge.bin ../../tsu_components/data/components
 component_mod_compiler light_wedge_rgb.xml light_wedge.mesh light_wedge_glass.mesh
 move light_wedge_rgb.bin ../../tsu_components/data/components
 
 mesh_compiler searchlight_block.dae -o ./
 mesh_compiler searchlight_block_glass.dae -o ./
-@REM component_mod_compiler searchlight_block.xml searchlight_block.mesh searchlight_block_glass.mesh
-@REM move searchlight_block.bin ../../tsu_components/data/components
 component_mod_compiler searchlight_block.xml searchlight_block.mesh searchlight_block_glass.mesh
 move searchlight_block.bin ../../tsu_components/data/components
 

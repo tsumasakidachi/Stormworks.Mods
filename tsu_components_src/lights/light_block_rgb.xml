@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definition name="Light Wedge (RGB)" category="4" type="38" mass="0.5" value="50" flags="0" tags="mod,tsu" phys_collision_dampen="0" audio_filename_start="" audio_filename_loop="" audio_filename_end="" audio_filename_start_b="" audio_filename_loop_b="" audio_filename_end_b="" audio_gain="0" mesh_data_name="light_wedge.mesh" mesh_0_name="light_wedge_glass.mesh" mesh_1_name="" mesh_editor_only_name="" block_type="0" child_name="" extender_name="" constraint_type="0" constraint_axis="1" constraint_range_of_motion="0" max_motor_force="0" max_motor_speed="5" cable_radius="0.02" cable_length="16" seat_pose="0" seat_health_per_sec="0" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" force_emitter_max_vector="1" force_emitter_default_pitch="0" force_emitter_blade_height="0" force_emitter_rotation_speed="1" force_emitter_blade_physics_length="4" force_emitter_blade_efficiency="0.01" force_emitter_efficiency="1" engine_max_force="1000" trans_conn_type="0" wheel_radius="0.25" button_type="0" light_intensity="1" light_range="10" light_ies_map="" light_fov="0" light_type="0" door_lower_limit="0" door_upper_limit="0" door_flipped="false" custom_door_type="0" door_side_dist="1" door_up_dist="1" dynamic_min_rotation="0" dynamic_max_rotation="0" logic_gate_type="0" indicator_type="0" connector_type="0" magnet_force="0" gyro_type="0" rudder_surface_area="0" pump_pressure="0" water_component_type="0" torque_component_type="0" jet_engine_component_type="0" particle_speed="0.05" inventory_type="0" inventory_default_outfit="0" electric_type="0" electric_charge_capacity="0" electric_magnitude="0" composite_type="0">
+<definition name="Light Block (RGB)" category="4" type="38" mass="1" value="50" flags="0" tags="mod,tsu" phys_collision_dampen="0" audio_filename_start="" audio_filename_loop="" audio_filename_end="" audio_filename_start_b="" audio_filename_loop_b="" audio_filename_end_b="" audio_gain="0" mesh_data_name="light_block.mesh" mesh_0_name="light_block_glass.mesh" mesh_1_name="" mesh_editor_only_name="" block_type="0" child_name="" extender_name="" constraint_type="0" constraint_axis="1" constraint_range_of_motion="0" max_motor_force="0" max_motor_speed="5" cable_radius="0.02" cable_length="16" seat_pose="0" seat_health_per_sec="0" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" force_emitter_max_vector="1" force_emitter_default_pitch="0" force_emitter_blade_height="0" force_emitter_rotation_speed="1" force_emitter_blade_physics_length="4" force_emitter_blade_efficiency="0.01" force_emitter_efficiency="1" engine_max_force="1000" trans_conn_type="0" wheel_radius="0.25" button_type="0" light_intensity="1" light_range="10" light_ies_map="" light_fov="0" light_type="0" door_lower_limit="0" door_upper_limit="0" door_flipped="false" custom_door_type="0" door_side_dist="1" door_up_dist="1" dynamic_min_rotation="0" dynamic_max_rotation="0" logic_gate_type="0" indicator_type="0" connector_type="0" magnet_force="0" gyro_type="0" rudder_surface_area="0" pump_pressure="0" water_component_type="0" torque_component_type="0" jet_engine_component_type="0" particle_speed="0.05" inventory_type="0" inventory_default_outfit="0" electric_type="0" electric_charge_capacity="0" electric_magnitude="0" composite_type="0">
 	<surfaces>
-		<surface orientation="3" rotation="0" shape="0" trans_type="0">
-			<position x="0" y="0" z="0"/>
+		<surface orientation="5" shape="0">
+			<position/>
 		</surface>
-		<surface orientation="4" rotation="0" shape="0" trans_type="0">
-			<position x="0" y="0" z="0"/>
+		<surface shape="0">
+			<position/>
+		</surface>
+		<surface orientation="1" shape="0">
+			<position/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position/>
+		</surface>
+		<surface orientation="4" shape="0">
+			<position/>
 		</surface>
 	</surfaces>
 	<buoyancy_surfaces>
-		<surface orientation="3" rotation="0" shape="0" trans_type="0">
-			<position x="0" y="0" z="0"/>
+		<surface orientation="4" shape="1">
+			<position/>
 		</surface>
-		<surface orientation="4" rotation="0" shape="0" trans_type="0">
-			<position x="0" y="0" z="0"/>
+		<surface orientation="1" shape="1">
+			<position/>
+		</surface>
+		<surface shape="1">
+			<position/>
+		</surface>
+		<surface orientation="5" shape="1">
+			<position/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position/>
+		</surface>
+		<surface orientation="2" shape="1">
+			<position/>
 		</surface>
 	</buoyancy_surfaces>
 	<logic_nodes>
@@ -25,7 +46,7 @@
 		</logic_node>
 	</logic_nodes>
 	<voxels>
-		<voxel flags="1" physics_shape="1" buoy_pipes="0">
+		<voxel flags="1" physics_shape="0" buoy_pipes="0">
 			<position x="0" y="0" z="0"/>
 			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
 		</voxel>
